@@ -7,11 +7,11 @@ public class SwitchCase {
         
         float result = 0;
 
-        Scanner askOperation = new Scanner(System.in);  // Create a Scanner object
-        System.out.println("Enter Operation: ");
-        System.out.println("(add, subtract, multiply, divide, modulo)");
-        String operation = askOperation.nextLine();  // Read user input
-        System.out.println("Operation is: " + operation);  // Output user input
+        Scanner askOperation = new Scanner(System.in);
+        System.out.println("Enter Operation (add, subtract, multiply, divide, modulo): ");
+
+        String operation = askOperation.nextLine();
+        System.out.println("Operation is: " + operation);
 
         Scanner askFirstNumber = new Scanner(System.in);
         System.out.println("First number: ");
