@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a57d35cb-1b9f-4df6-9c0d-108d80383e66" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Basics/VariableConnect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Basics/ArithmeticOperators.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,10 +39,23 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "settings.editor.selected.configurable": "terminal"
+    "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Variables">
+  <component name="RunManager" selected="Application.ArithmeticOperators">
+    <configuration name="ArithmeticOperators" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Basics.ArithmeticOperators" />
+      <module name="cbm-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Basics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HelloWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Basics.HelloWord" />
       <module name="cbm-java" />
@@ -78,6 +91,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ArithmeticOperators" />
         <item itemvalue="Application.Variables" />
         <item itemvalue="Application.HelloWord" />
         <item itemvalue="Application.Main" />
