@@ -30,7 +30,7 @@ public class ArithmeticOperators {
         // startValue++;
         // Post-Decrement;
         // startValue--;
-        int incrementValue = 0;
+        int incrementValue = 8;
         System.out.println("incrementValue = 8");
         System.out.println("Post-Increment: " + incrementValue++);
 
@@ -38,6 +38,7 @@ public class ArithmeticOperators {
         // ++startValue;
         // Pre-Increment
         // ++startValue;
+        incrementValue = 8;
         System.out.println("Pre-Increment: " + ++incrementValue);
 
     }
