@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a57d35cb-1b9f-4df6-9c0d-108d80383e66" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Basics/SwitchCase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Basics/ControlStructures.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Basics/ControlStructures.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +42,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ControlStructures">
+  <component name="RunManager" selected="Application.SwitchCase">
     <configuration name="ArithmeticOperators" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Basics.ArithmeticOperators" />
       <module name="cbm-java" />
@@ -69,8 +69,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HelloWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Basics.HelloWord" />
+    <configuration name="SwitchCase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Basics.SwitchCase" />
       <module name="cbm-java" />
       <extension name="coverage">
         <pattern>
@@ -110,11 +110,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SwitchCase" />
         <item itemvalue="Application.ControlStructures" />
         <item itemvalue="Application.exerciseThree" />
         <item itemvalue="Application.ArithmeticOperators" />
         <item itemvalue="Application.Variables" />
-        <item itemvalue="Application.HelloWord" />
       </list>
     </recent_temporary>
   </component>
@@ -148,7 +148,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663580231137</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="+ Control Structures">
+      <created>1663588182695</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1663588182695</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -168,7 +175,8 @@
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="Merge branch 'main' of github.com:bloxxor/cbm-java&#10;&#10;# Conflicts:&#10;#&#9;.gitignore" />
     <MESSAGE value="Fixed Typos" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed Typos" />
+    <MESSAGE value="+ Control Structures" />
+    <option name="LAST_COMMIT_MESSAGE" value="+ Control Structures" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>
