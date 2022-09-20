@@ -5,25 +5,34 @@ public class SwitchCase {
 
     public static void main(String[] args) {
         
-        float result = 0;
+        float result = 0f;
 
-        Scanner askOperation = new Scanner(System.in);
+        // Instantiate Scanner (listens for input
+        Scanner input = new Scanner(System.in);
+
+        // Print question
         System.out.println("Enter Operation (add, subtract, multiply, divide, modulo): ");
 
-        String operation = askOperation.nextLine();
+        // Read the next line
+        String operation = input.nextLine();
+        // Print the entered value
         System.out.println("Operation is: " + operation);
 
-        Scanner askFirstNumber = new Scanner(System.in);
+        // Print question
         System.out.println("First number: ");
-        float numberOne = askFirstNumber.nextFloat();
+        // Read the next line
+        float numberOne = input.nextFloat();
 
-        Scanner askSecondNumber = new Scanner(System.in);
+        // Print question
         System.out.println("Second Number: ");
-        float numberTwo = askSecondNumber.nextFloat();
-        
+        // Read the next line
+        float numberTwo = input.nextFloat();
+
+        // Print both entered values
         System.out.println("First number is: " + numberOne);
         System.out.println("Second number is: " + numberTwo);
-        
+
+        // Compare input and calculate
         switch (operation) {
             case "add":
                 result = numberOne + numberTwo;
@@ -40,8 +49,12 @@ public class SwitchCase {
             case "modulo":
                 result = numberOne % numberTwo;
                 break;
+            default:
+                result = 0;
+                break;
         }
 
+        // Print the result
         System.out.println(result);
 
     }
