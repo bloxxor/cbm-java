@@ -1,6 +1,8 @@
 package Basics;
 
-public class ControlStructures {
+import java.util.Scanner;
+
+public class ControlStructuresInput {
 
     public static void main(String[] args) {
 
@@ -9,12 +11,16 @@ public class ControlStructures {
         // 10%, wenn der Einkaufswert mindestens bei 3000€ liegt.
         boolean recurringCustomer = false;
         String customerName = "";
-        double completePrice = 0.0f;
-        double discountPrice = 0.0f;
+        double completePrice = 0.0;
+        double discountPrice = 0.0;
 
-        // Test cases
-        customerName = "John Connter";
-        completePrice = 1450;
+        Scanner input = new Scanner(System.in);
+
+        System.out.println("Name: ");
+        customerName = input.nextLine();
+
+        System.out.println("To pay: ");
+        completePrice = input.nextDouble();
 
         if (customerName.equals("John Conner")) {
             recurringCustomer = true;
