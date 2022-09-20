@@ -13,7 +13,7 @@ public class ControlStructures {
         double discountPrice = 0.0f;
 
         // Test cases
-        customerName = "John Conner";
+        customerName = "John Connter";
         completePrice = 1450;
 
         if (customerName.equals("John Conner")) {
@@ -42,6 +42,7 @@ public class ControlStructures {
 
         } else {
             System.out.println("Price: " + completePrice);
+            System.out.println("You have to buy more often, to become a recurring customer.");
         }
 
     }
