@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a57d35cb-1b9f-4df6-9c0d-108d80383e66" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Basics/CarLoop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Basics/AdditionArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Basics/Loops.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Basics/Loops.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,9 +47,9 @@
       <recent name="Basics" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CarLoop">
-    <configuration name="CarLoop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Basics.CarLoop" />
+  <component name="RunManager" selected="Application.AdditionArray">
+    <configuration name="AdditionArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Basics.AdditionArray" />
       <module name="cbm-java" />
       <extension name="coverage">
         <pattern>
@@ -62,8 +61,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ControlStructuresInput" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Basics.ControlStructuresInput" />
+    <configuration name="CarLoop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Basics.CarLoop" />
       <module name="cbm-java" />
       <extension name="coverage">
         <pattern>
@@ -116,11 +115,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AdditionArray" />
         <item itemvalue="Application.CarLoop" />
         <item itemvalue="Application.Loops" />
         <item itemvalue="Application.ZooAnimals" />
         <item itemvalue="Application.JavaArrays" />
-        <item itemvalue="Application.ControlStructuresInput" />
       </list>
     </recent_temporary>
   </component>
