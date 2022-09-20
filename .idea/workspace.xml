@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a57d35cb-1b9f-4df6-9c0d-108d80383e66" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Basics/ControlStructuresInput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Basics/ZooAnimals.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,7 +47,7 @@
       <recent name="Basics" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ControlStructuresInput">
+  <component name="RunManager" selected="Application.ZooAnimals">
     <configuration name="ControlStructures" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Basics.ControlStructures" />
       <module name="cbm-java" />
@@ -74,6 +74,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="JavaArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Basics.JavaArrays" />
+      <module name="cbm-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Basics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Loops" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Basics.Loops" />
       <module name="cbm-java" />
@@ -87,21 +100,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Playground" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Basics.Playground" />
-      <module name="cbm-java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Basics.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SwitchCase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Basics.SwitchCase" />
+    <configuration name="ZooAnimals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Basics.ZooAnimals" />
       <module name="cbm-java" />
       <extension name="coverage">
         <pattern>
@@ -115,11 +115,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ZooAnimals" />
+        <item itemvalue="Application.JavaArrays" />
         <item itemvalue="Application.ControlStructuresInput" />
         <item itemvalue="Application.ControlStructures" />
         <item itemvalue="Application.Loops" />
-        <item itemvalue="Application.SwitchCase" />
-        <item itemvalue="Application.Playground" />
       </list>
     </recent_temporary>
   </component>
