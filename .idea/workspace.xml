@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a57d35cb-1b9f-4df6-9c0d-108d80383e66" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Basics/ZooAnimals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Basics/CarLoop.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Basics/Loops.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Basics/Loops.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,9 +48,9 @@
       <recent name="Basics" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ZooAnimals">
-    <configuration name="ControlStructures" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Basics.ControlStructures" />
+  <component name="RunManager" selected="Application.CarLoop">
+    <configuration name="CarLoop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Basics.CarLoop" />
       <module name="cbm-java" />
       <extension name="coverage">
         <pattern>
@@ -115,11 +116,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CarLoop" />
+        <item itemvalue="Application.Loops" />
         <item itemvalue="Application.ZooAnimals" />
         <item itemvalue="Application.JavaArrays" />
         <item itemvalue="Application.ControlStructuresInput" />
-        <item itemvalue="Application.ControlStructures" />
-        <item itemvalue="Application.Loops" />
       </list>
     </recent_temporary>
   </component>
@@ -153,7 +154,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663580231137</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Exercise Animals">
+      <created>1663673209017</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1663673209017</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -173,7 +181,8 @@
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="Merge branch 'main' of github.com:bloxxor/cbm-java&#10;&#10;# Conflicts:&#10;#&#9;.gitignore" />
     <MESSAGE value="Fixed Typos" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed Typos" />
+    <MESSAGE value="Exercise Animals" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exercise Animals" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>

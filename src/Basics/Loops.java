@@ -11,7 +11,7 @@ public class Loops {
 
         System.out.println("While: ");
         // Kopfgesteuerte Schleife (while)
-        while (i < 10) {
+        while (i <= 10) {
 
             // Print i
             System.out.print(i);
