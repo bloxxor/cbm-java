@@ -40,9 +40,11 @@ public class pokeGame {
 
         System.out.println("---------------------------");
 
+        // AI choose attack
         Random random = new Random();
         int chosenAttack = random.nextInt(2) + 1;
 
+        // Get current attack
         if (chosenAttack == 1) {
             pokeMon_2.currentAttack = pokeMon_2.getAttackDefault();
         } else {
@@ -55,6 +57,7 @@ public class pokeGame {
         // Set hitpoints to Player
         pokeMon_1.setHitPoints(pokeMon_1.getHitPoints() - pokeMon_2.getAttackDefault());
 
+        // Check, if one of the players is on 0 HP
         if (pokeMon_1.getHitPoints() <= 0) {
             System.out.println("PokeMonster 2 gewinnt!");
             gameOver = true;
