@@ -13,11 +13,9 @@ import java.util.Random;
  */
 public class PokeMonster {
 
-    private String monsterName = "";
-    private int hitPoints = 0;
-    public int attackPoints = 0;
-
-    public boolean winner;
+    private String monsterName;
+    private int hitPoints;
+    public int currentAttack = 0;
 
     public PokeMonster(String monsterName, int hitPoints) {
         this.monsterName = monsterName;
@@ -46,23 +44,21 @@ public class PokeMonster {
 
     }
 
-
-
-    public int monsterAttackDefault() {
+    public int getAttackDefault() {
 
         Random random = new Random();
-        int currentAttack = random.nextInt(10) + 1;
+        currentAttack = random.nextInt(10) + 1;
 
         return currentAttack;
 
     }
 
-    public int monsterAttackSpecial() {
+    public int getAttackSpecial() {
 
         Random random = new Random();
-        int getAttack = random.nextInt(10) + 1;
+        currentAttack = random.nextInt(10) + 1;
 
-        return getAttack;
+        return currentAttack;
 
     }
 
