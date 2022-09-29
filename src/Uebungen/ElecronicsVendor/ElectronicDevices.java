@@ -37,7 +37,9 @@ public class ElectronicDevices {
     }
 
     public void displayDevices() {
-
+        System.out.println(name);
+        System.out.println(category);
+        System.out.println(specifications);
     }
 
 }
