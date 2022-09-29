@@ -2,10 +2,20 @@ package UML.Bank;
 
 public class Konto {
 
-    Kontoinhaber kontoinhaber = new Kontoinhaber("Florian Gabele");
+    private Kontoinhaber kontoinhaber;
+    private int iban;
 
-    public Konto(Kontoinhaber kontoinhaber) {
+    public Konto(int iban, Kontoinhaber kontoinhaber) {
+        this.iban = iban;
         this.kontoinhaber = kontoinhaber;
+    }
+
+    public int getIban() {
+        return iban;
+    }
+
+    public void setIban(int iban) {
+        this.iban = iban;
     }
 
     public Kontoinhaber getKontoinhaber() {
@@ -17,6 +27,7 @@ public class Konto {
     }
 
     public void zeigeKonten() {
-        System.out.println(kontoinhaber);
+        System.out.println("Inhaber: " + kontoinhaber.getVorname() + " Iban: " + getIban());
     }
+
 }
