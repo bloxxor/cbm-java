@@ -1,6 +1,6 @@
 package OOP.Vererbung;
 
-public class Saeugetier {
+public abstract class Saeugetier {
 
     public String name;
     public int alter;
@@ -9,8 +9,6 @@ public class Saeugetier {
         System.out.println("Macht Geräusch.");
     }
 
-    public void bewegen() {
-        System.out.println("Bewegt sich.");
-    }
+    public abstract void bewegen();
 
 }
