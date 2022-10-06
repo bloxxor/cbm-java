@@ -9,8 +9,8 @@ public class FlorianGabele extends Kunde {
     public FlorianGabele(String name, int iban, int schliessfachNr) {
         super(name, iban, schliessfachNr);
         this.name = name;
-//        this.iban = new Konto(iban).getIban();
-//        this.schliessfachNr = new Schliessfach(schliessfachNr).getSchliessfachNr();
+        this.iban = new Konto(iban).getIban();
+        this.schliessfachNr = new Schliessfach(schliessfachNr).getSchliessfachNr();
     }
 
 }

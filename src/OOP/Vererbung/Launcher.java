@@ -4,16 +4,13 @@ public class Launcher {
 
     public static void main(String[] args) {
 
-        Hund bello = new Hund("Bello", 1);
+        Tierheim tierheim = new Tierheim();
 
-        bello.geraeuschMachen();
-        bello.bewegen();
+        tierheim.addTier(new Hund("Bello", 1));
 
+        tierheim.addTier(new Katze("Spot", 6));
 
-        Katze spot = new Katze("Spot", 6);
-
-        spot.geraeuschMachen();
-        spot.bewegen();
+        tierheim.zeigeAlle();
 
     }
 
