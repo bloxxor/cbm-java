@@ -4,19 +4,13 @@ public class Launcher {
 
     public static void main(String[] args) {
 
-        Hund bello = new Hund();
-
-        bello.alter = 1;
-        bello.name = "Bello";
+        Hund bello = new Hund("Bello", 1);
 
         bello.geraeuschMachen();
         bello.bewegen();
 
 
-        Katze spot = new Katze();
-
-        spot.alter = 5;
-        spot.name = "Spot";
+        Katze spot = new Katze("Spot", 6);
 
         spot.geraeuschMachen();
         spot.bewegen();
