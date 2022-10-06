@@ -12,18 +12,13 @@ public class ArrayExercise {
         Hund hasso = new Hund("Hasso", 4);
         Hund bodo = new Hund("Bodo von der Hermannsklause", 6);
 
-//        ArrayList<Integer> zahlen = new ArrayList<>();
-//        zahlen.add(5);
-//        zahlen.remove(0);
-
         ArrayList<Hund> hunde = new ArrayList<>();
 
         hunde.add(bello);
         hunde.add(hasso);
         hunde.add(bodo);
 
-        for (Hund h:
-             hunde) {
+        for (Hund h : hunde) {
             System.out.println(h.name);
         }
 
