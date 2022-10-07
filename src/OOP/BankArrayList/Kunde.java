@@ -1,17 +1,16 @@
 package OOP.BankArrayList;
 
-public abstract class Kunde {
+public class Kunde {
 
     public String name;
 
-    public int iban;
-
-    public int schliessfachNr;
+    public Konto konto;
+    public Schliessfach schliessfach;
 
     public Kunde(String name, int iban, int schliessfachNr) {
         this.name = name;
-        this.iban = iban;
-        this.schliessfachNr = schliessfachNr;
+        konto = new Konto(iban);
+        schliessfach = new Schliessfach(schliessfachNr);
     }
 
 }

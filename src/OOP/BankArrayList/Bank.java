@@ -17,7 +17,7 @@ public class Bank {
     public void getAlles() {
 
         for (Kunde k : kunden) {
-            System.out.println("Name: " + k.name + " IBAN: " + k.iban);
+            System.out.println("Name: " + k.name + ", IBAN: " + k.konto.getIban() + ", Schliessfach: " + k.schliessfach.getSchliessfachNr());
             System.out.println("--------------------------------------");
         }
 
