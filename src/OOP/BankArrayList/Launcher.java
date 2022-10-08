@@ -13,9 +13,11 @@ public class Launcher {
         Bank meineBank = new Bank();
 
         meineBank.addKunde(new Kunde("Petra Petersen", 123, 456));
-        meineBank.addKunde(new Kunde("Hans Hansen", 456, 789));
+        meineBank.addKunde(new Kunde("Hans Petersen", 456, 789));
 
-        meineBank.getAlles();
+        MainMenu menu = new MainMenu();
+
+        menu.menuDisplay(meineBank);
 
     }
 

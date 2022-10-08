@@ -7,7 +7,7 @@ public class Enemy {
     private int hitPoints;
 
     // Constructor, gleicher Name wie die Klasse
-    // Es kann mehrere Construtoren geben, die über die Anzahl der Parameter
+    // es kann mehrere Construtoren geben, die über die Anzahl der Parameter
     public Enemy(String enemyType, int hitPoints) {
         this.enemyType = enemyType;
         this.hitPoints = hitPoints;
