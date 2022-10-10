@@ -47,6 +47,9 @@ public class Launcher {
 //        Kunde kunde = new Kunde(vorname, nachname, strasse);
 //        db.aktualisieren(id, kunde);
 
+        Menu menu = new Menu();
+        menu.mainMenu();
+
 
     }
 
