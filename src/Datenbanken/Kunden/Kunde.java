@@ -1,4 +1,4 @@
-package Datenbank_Kunden;
+package Datenbanken.Kunden;
 
 public class Kunde {
 

@@ -1,6 +1,4 @@
-package Datenbank_Kunden;
-
-import java.util.Scanner;
+package Datenbanken.Kunden;
 
 public class Launcher {
 
