@@ -98,7 +98,7 @@ public class Menu {
 
         do {
 
-            System.out.println("####### Enemy Menu#######");
+            System.out.println("####### Enemy Menu #######");
             System.out.println("[1] List Enemies");
             System.out.println("[2] Add Enemy");
             System.out.println("[3] Remove Enemy");
