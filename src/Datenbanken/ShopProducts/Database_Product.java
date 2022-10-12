@@ -23,6 +23,27 @@ public class Database_Product {
 
     }
 
+    public void readProduct() {
+
+        try {
+
+            String sql = "SELECT * FROM products;";
+            Statement statement = connection.createStatement();
+            ResultSet resultSet = statement.executeQuery(sql);
+
+            while (resultSet.next()) {
+                System.out.print("[" + resultSet.getInt("id") + "] ");
+                System.out.print(resultSet.getString("name") + " ");
+                System.out.print(resultSet.getString("description") + " ");
+                System.out.println(resultSet.getDouble("price") + " €");
+            }
+
+        } catch (SQLException e) {
+            System.out.println(e.getMessage());
+        }
+
+    }
+
     // create
     public void createProduct(Product product) {
 
@@ -37,28 +58,6 @@ public class Database_Product {
             preparedStatement.execute();
 
             System.out.println("Product Added.");
-
-        } catch (SQLException e) {
-            System.out.println(e.getMessage());
-        }
-
-    }
-
-    // read
-    public void readProduct() {
-
-        try {
-
-            String sql = "SELECT * FROM products;";
-            Statement statement = connection.createStatement();
-            ResultSet resultSet = statement.executeQuery(sql);
-
-            while (resultSet.next()) {
-                System.out.print("[" + resultSet.getInt("id") + "] ");
-                System.out.print(resultSet.getString("name") + " ");
-                System.out.println(resultSet.getString("description"));
-                System.out.println(resultSet.getDouble("price"));
-            }
 
         } catch (SQLException e) {
             System.out.println(e.getMessage());
