@@ -44,6 +44,30 @@ public class Database_Product {
 
     }
 
+    public Product readSingleProduct(int id) {
+
+        try {
+
+            String sql = "SELECT * FROM products WHERE id=?";
+            Statement statement = connection.createStatement();
+            ResultSet resultSet = statement.executeQuery(sql);
+
+            while (resultSet.next()) {
+               int updateID = resultSet.getInt("id");
+               String name = resultSet.getString("name");
+               String description = resultSet.getString("description");
+               double price = resultSet.getInt("price");
+               return new Product(name, description, price);
+            }
+
+        } catch (SQLException e) {
+            System.out.println(e.getMessage());
+        }
+
+        return null;
+
+    }
+
     // create
     public void createProduct(Product product) {
 

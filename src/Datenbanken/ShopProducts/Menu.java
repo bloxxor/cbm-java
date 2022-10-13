@@ -26,6 +26,7 @@ public class Menu {
             System.out.println("[5] Quit");
 
             input = scanner.nextInt();
+            scanner.nextLine();
 
             switch (input) {
                 case 1:
@@ -48,16 +49,49 @@ public class Menu {
 
     public void createProduct() {
 
-        System.out.println("Enter the name");
-        String name = scanner.nextLine();
-        scanner.nextLine();
-        System.out.println("Enter the description");
+        String name;
+        String description;
 
-        String description = scanner.next();
-        scanner.nextLine();
+        do {
+            System.out.println("Enter the name");
+            name = scanner.nextLine();
+
+            if (name.isEmpty()) {
+                System.out.println("Name is required. Try again.");
+            } else {
+                System.out.println("Name is: " + name);
+                break;
+            }
+        } while (true);
+
+        do {
+
+            System.out.println("Enter the description");
+            description = scanner.nextLine();
+
+            if (description.isEmpty()) {
+                System.out.println("Description is required. Try again.");
+            } else {
+                System.out.println("Description is: " + description);
+                break;
+            }
+
+        } while (true);
+
+        boolean correctInput = false;
+        double price = 0;
 
         System.out.println("Enter the price");
-        double price = scanner.nextDouble();
+
+        do {
+            if (scanner.hasNextDouble()) {
+                price = scanner.nextDouble();
+                correctInput = true;
+            } else {
+                System.out.println("Please Enter Valid double");
+                scanner.next();
+            }
+        } while (!correctInput);
 
         db.createProduct(new Product(name, description, price));
 
